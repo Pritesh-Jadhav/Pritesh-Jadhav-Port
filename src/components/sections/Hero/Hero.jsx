@@ -1,5 +1,5 @@
-import React from 'react';
-import './Hero.css';
+import React from "react";
+import "./Hero.css";
 
 const Hero = ({ openModal }) => {
   return (
@@ -8,22 +8,30 @@ const Hero = ({ openModal }) => {
         <div className="hero-content animate-fade-in">
           <p className="greeting">Hello, I'm</p>
           <h1 className="name gradient-text">Pritesh Jadhav</h1>
-          <h2 className="title">Full Stack Developer</h2>
-          
-          <p className="tagline">
-            Building Smart & Scalable Web Experiences
-          </p>
-          
+          <h2 className="title">
+            Software Developer | Full Stack | AI Integration
+          </h2>
+
+          <p className="tagline">Building Smart & Scalable Web Experiences</p>
+
           <p className="description">
-            I am a passionate developer currently pursuing my BSc in Computer Science (AIML & VR) at Sandip University. I specialize in the MERN stack, creating modern, responsive, and performance-driven applications.
+            Transforming ideas into modern web applications through full-stack
+            development, cloud technologies, and AI-driven solutions. Currently
+            pursuing a B.Sc. in Computer Science (AI, ML & VR), I build
+            responsive and scalable applications using React.js, Node.js,
+            Express.js, and MongoDB.
           </p>
-          
+
           <div className="hero-buttons">
-            <a href="#projects" className="btn-primary">View My Work</a>
-            <button onClick={openModal} className="btn-secondary">View Resume</button>
+            <a href="#projects" className="btn-primary">
+              View My Work
+            </a>
+            <button onClick={openModal} className="btn-secondary">
+              View Resume
+            </button>
           </div>
         </div>
-        
+
         {/* Optional decorative elements for premium feel */}
         <div className="hero-decoration">
           <div className="glow glow-1"></div>
