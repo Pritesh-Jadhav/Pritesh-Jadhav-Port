@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import './ResumeModal.css';
 
 const ResumeModal = ({ isOpen, onClose }) => {
-  // Prevent scrolling when modal is open
+  
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
@@ -28,23 +28,23 @@ const ResumeModal = ({ isOpen, onClose }) => {
         
         <div className="modal-body">
           <iframe 
-            src="/resume.pdf#toolbar=0&navpanes=0" 
+            src="/PriteshJadhav.pdf#toolbar=0&navpanes=0" 
             title="Pritesh Jadhav Resume"
             className="resume-iframe"
           >
             <p>
               Your browser does not support PDFs. 
               <br />
-              <a href="/resume.pdf" className="fallback-link">Download the PDF to view it</a>.
+              <a href="/PriteshJadhav.pdf" className="fallback-link">Download the PDF to view it</a>.
             </p>
           </iframe>
         </div>
         
         <div className="modal-footer">
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+          <a href="/PriteshJadhav.pdf" target="_blank" rel="noopener noreferrer" className="btn-secondary">
             Open in New Tab
           </a>
-          <a href="/resume.pdf" download="Pritesh_Jadhav_Resume.pdf" className="btn-primary">
+          <a href="/PriteshJadhav.pdf" download="Pritesh_Jadhav_Resume.pdf" className="btn-primary">
             Download PDF
           </a>
         </div>
